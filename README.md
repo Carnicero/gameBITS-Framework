@@ -24,5 +24,6 @@ The gameBits Framework architecture has fifteen different classes that compose t
 - gBAbstract is the class definition of abstract artifacts, in general it characterizes resources such as meshes and textures, for example.
 - The gBHelper class defines auxiliary structures for storage and manipulation of data, in general used to handle data not manipulated by the game engine.
 - The gBConcrete class characterizes what is defined as concrete artifact, it consists of abstract artifacts, characterization parameters, may have a LOD control system, and is the class that characterizes the concept of node, it may be linked to a parent node and several child nodes.
-- The gBLODSystem class defines an interface for LOD systems. The gBLODRuleSet class features a LOD system based on a Discrete LOD system, which manages the rules that define the presentation behavior of an artifact.
+- The gBLODSystem class defines an interface for LOD systems.
+- The gBLODRuleSet class features a LOD system based on a Discrete LOD system, which manages the rules that define the presentation behavior of an artifact.
 - The gBLODRule class describes a level of detail modification rule of an artifact, being able to dynamically change characteristics of this to suit a particular situation detected by sensors.
